@@ -102,7 +102,7 @@ h1 {
   font-size: 0.7rem;
   border-radius: 0.3rem;
   line-height: 1.5rem;
-  cursor:default;
+  cursor: default;
 }
 
 .card:hover {
@@ -115,6 +115,8 @@ h1 {
 .nothover:hover {
   position: relative;
   top: 0;
+  transform: scale(1);
+  box-shadow: 2px 2px 8px 2px #4644418d;
 }
 
 .card h3 {
@@ -145,18 +147,29 @@ h1 {
 button {
   display: flex;
   justify-content: center;
-  text-decoration: none;
+  /* text-decoration: none;
   background-color: #a9a6a6;
   color: #272422;
   border: none;
   padding: 0.6rem 1.2rem;
   border-radius: 0.5rem;
   font-weight: 600;
-  text-align: center;
+  text-align: center; */
+  color: #ffffff;
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  background-color: #ff7206;
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+  font-size: 0.8rem;
+  border-radius: 0.3rem;
+  outline: none;
+  border: none;
+  cursor: pointer;  
 }
 
 button:hover {
-  background-color: #b6b4b4;
+  background-color: #ff8427;
 }
 
 .grid {
